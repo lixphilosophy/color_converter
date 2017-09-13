@@ -1,5 +1,5 @@
 # Color Converter
-Simple **tkinter** application. Convert `RGB(0~255)` to `multiple color system`
+Simple **tkinter** application. Convert `RGB(0~255)` to `multiple color system (RGB(0~1, HEX, CMKY, HSL)`
 
 ## How to use?
 
