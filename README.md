@@ -26,6 +26,8 @@ Unzip 'Color Converter.zip', application will be there
 
 ### Using GUI
 
+![img/screenshot.png](img/screenshot.png)
+
 Enter three integer (0~255) separated by `,` as the following format:
 
 ```
