@@ -12,7 +12,10 @@ Required Environments:
 * Python 3.x (Avoid calculated error happens on Python 2.x)
 * setuptools
 * py2app v0.13 (Generated error happened on v0.14, Sep 13 2017)
-* PyCharm IDE for editing (Recommended)
+
+Recommended:
+
+* PyCharm IDE for editing
 
 Using command line below:
 
