@@ -15,7 +15,7 @@ Required Environments:
 
 Recommended:
 
-* PyCharm IDE for editing
+* PyCharm Community Edition IDE editor
 
 Using command line below:
 
