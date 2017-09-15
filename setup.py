@@ -8,8 +8,18 @@ from setuptools import setup
 
 APP = ['Converter.py']
 NAME = 'Color Converter'
-DATA_FILES = [('', ['img']), ]
-OPTIONS = {'iconfile': 'img/logo.icns', }
+DATA_FILES = [('', ['img'])]
+OPTIONS = {
+    'argv_emulation': True,
+    'iconfile': 'img/logo.icns',
+    'plist': {
+       'CFBundleName': NAME,
+       'CFBundleDisplayName': NAME,
+       'CFBundleGetInfoString': "Simple tkinter application",
+       'CFBundleVersion': "0.1.0",
+       'CFBundleShortVersionString': "0.1.0",
+    }
+}
 SETUP_REQUIRES = ['py2app']
 
 setup(
